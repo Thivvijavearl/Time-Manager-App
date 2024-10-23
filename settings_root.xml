@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Theme">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="dark_theme"
+            android:title="Switch to Dark Theme" />
+    </PreferenceCategory>
+
+    <!--    <ListPreference-->
+<!--        android:defaultValue="1"-->
+<!--        android:entries="@array/snoozed"-->
+<!--        android:entryValues="@array/snoozed"-->
+<!--        android:key="list_preference_1"-->
+<!--        android:title="Select Snooze Time"-->
+<!--        android:negativeButtonText="cancel"-->
+<!--        android:positiveButtonText="okay"-->
+<!--        />-->
+
+
+</PreferenceScreen>
